@@ -1,0 +1,106 @@
+C:/RISC-V/mi-v/synthesis/top.vm(23834): WARNING: net 'N_9010' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(23835): WARNING: net 'N_9011' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(23836): WARNING: net 'N_9012' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(23837): WARNING: net 'N_9013' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(29764): WARNING: net 'N_9019' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(29765): WARNING: net 'N_9020' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(29766): WARNING: net 'N_9021' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(29769): WARNING: net 'N_9024' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(29770): WARNING: net 'N_9025' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30632): WARNING: net 'N_9014' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30633): WARNING: net 'N_9015' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30644): WARNING: net 'N_9026' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30645): WARNING: net 'N_9027' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30648): WARNING: net 'N_9030' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30649): WARNING: net 'N_9031' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(30650): WARNING: net 'N_9032' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(47711): WARNING: net 'N_9056' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(47712): WARNING: net 'N_9057' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(47713): WARNING: net 'N_9058' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48555): WARNING: net 'N_9038' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48573): WARNING: net 'N_9042' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48574): WARNING: net 'N_9043' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48575): WARNING: net 'N_9044' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48591): WARNING: net 'N_9050' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48592): WARNING: net 'N_9051' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48593): WARNING: net 'N_9052' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48597): WARNING: net 'N_9059' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48598): WARNING: net 'N_9060' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(48599): WARNING: net 'N_9061' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(50521): WARNING: net 'N_9072' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(65385): WARNING: net 'N_9077' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(65386): WARNING: net 'N_9078' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(65387): WARNING: net 'N_9079' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(65406): WARNING: net 'N_9087' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(110673): WARNING: net 'N_9098' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(111841): WARNING: net 'N_9099' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(133442): WARNING: net 'N_9104' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(133444): WARNING: net 'N_9106' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161415): WARNING: net 'N_9113' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161416): WARNING: net 'N_9114' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161417): WARNING: net 'N_9115' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161418): WARNING: net 'N_9116' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161419): WARNING: net 'N_9117' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161421): WARNING: net 'N_9119' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161422): WARNING: net 'N_9120' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161423): WARNING: net 'N_9121' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161428): WARNING: net 'N_9126' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161429): WARNING: net 'N_9127' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161430): WARNING: net 'N_9128' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161431): WARNING: net 'N_9129' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161432): WARNING: net 'N_9130' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161433): WARNING: net 'N_9131' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161434): WARNING: net 'N_9132' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161435): WARNING: net 'N_9133' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161436): WARNING: net 'N_9134' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161437): WARNING: net 'N_9135' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161438): WARNING: net 'N_9136' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(161439): WARNING: net 'N_9137' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(175998): WARNING: net 'N_9092' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(175999): WARNING: net 'N_9093' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(176079): WARNING: net 'N_9107' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(176081): WARNING: net 'N_9109' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(176084): WARNING: net 'N_9142' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190104): WARNING: net 'N_9033' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190105): WARNING: net 'N_9034' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190204): WARNING: net 'N_9065' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190205): WARNING: net 'N_9066' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190206): WARNING: net 'N_9067' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190207): WARNING: net 'N_9068' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190210): WARNING: net 'N_9071' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190311): WARNING: net 'N_9075' does not have a driver (VDB-1002)
+C:/RISC-V/mi-v/synthesis/top.vm(190313): WARNING: net 'N_9076' does not have a driver (VDB-1002)
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       7 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     6 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    4724   0      0      'FCCC_C0_0/FCCC_C0_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    297    0      0      'COREJTAGDEBUG_C0_0/COREJTAGDEBUG_C0_0/genblk3.genblk1.TGT_TCK_GLB' 
+    17     0      1      'COREJTAGDEBUG_C0_0/COREJTAGDEBUG_C0_0/genblk1.genblk1.genblk1.UJTAG_inst/UDRCK_inferred_clock_RNIOFN6' 
+    0      245    5      'AND2_0_RNIKOS1' 
+    0      34     3      'MIV_RV32IMA_L1_AHB_C0_0/MIV_RV32IMA_L1_AHB_C0_0/ChiselTop0/dmiResetCatch/MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D3_I0/sync_0/reg_0/q_RNI3JMA' 
+    0      24     0      'COREJTAGDEBUG_C0_0/COREJTAGDEBUG_C0_0/genblk1.genblk1.genblk1.UJTAG_inst/UJTAG_inst_RNIU1JD' 
+    0      18     18     'MIV_RV32IMA_L1_AHB_C0_0/MIV_RV32IMA_L1_AHB_C0_0/ChiselTop0/debug_1/dmOuter/dmiXbar/un1_reset_debug_RNILS68' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'COREJTAGDEBUG_C0_0/COREJTAGDEBUG_C0_0/genblk1.genblk1.genblk1.UJTAG_inst/UDRCK_inferred_clock_RNIOFN6'. 
+      Disconnected 5 data pins from global 'AND2_0_RNIKOS1'. 
+      Disconnected 3 data pins from global 'MIV_RV32IMA_L1_AHB_C0_0/MIV_RV32IMA_L1_AHB_C0_0/ChiselTop0/dmiResetCatch/MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D3_I0/sync_0/reg_0/q_RNI3JMA'. 
+      Disconnected 18 data pins from global 'MIV_RV32IMA_L1_AHB_C0_0/MIV_RV32IMA_L1_AHB_C0_0/ChiselTop0/debug_1/dmOuter/dmiXbar/un1_reset_debug_RNILS68'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+

@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\RISC-V\mi-v\designer\impl1\top.adb"
+LIST SOURCE_FILES
+VALUE "C:\RISC-V\mi-v\constraint\top_derived_constraints.sdc;sdc"
+VALUE "C:\RISC-V\mi-v\constraint\io\user.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\RISC-V\mi-v\synthesis\top_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

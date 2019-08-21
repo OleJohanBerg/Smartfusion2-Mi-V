@@ -1,0 +1,117 @@
+# Microsemi I/O Physical Design Constraints file
+
+# User I/O Constraints file 
+
+# Version: v12.1 12.600.0.14
+
+# Family: SmartFusion2 , Die: M2S025 , Package: 256 VF
+
+# Date generated: Thu Aug  1 12:17:20 2019 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io LED1_GREEN      \
+    -pinname J16       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io LED1_RED        \
+    -pinname K16       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io LED2_GREEN      \
+    -pinname M16       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io LED2_RED        \
+    -pinname N16       \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io USER_BUTTON1   \
+    -pinname H12      \
+    -fixed yes        \
+    -iostd LVCMOS33   \
+    -DIRECTION INPUT
+
+
+set_io USER_BUTTON2   \
+    -pinname H13      \
+    -fixed yes        \
+    -iostd LVCMOS33   \
+    -DIRECTION INPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+
+
+#
+#Ports using Dedicated Pins
+
+#
+
+set_io DEVRST_N       \
+    -pinname M11      \
+    -DIRECTION INPUT
+
+
+set_io TCK            \
+    -pinname R14      \
+    -DIRECTION INPUT
+
+
+set_io TDI            \
+    -pinname P16      \
+    -DIRECTION INPUT
+
+
+set_io TDO             \
+    -pinname P14       \
+    -DIRECTION OUTPUT
+
+
+set_io TMS            \
+    -pinname N11      \
+    -DIRECTION INPUT
+
+
+set_io TRSTB          \
+    -pinname N13      \
+    -DIRECTION INPUT
+
+

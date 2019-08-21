@@ -1,0 +1,25 @@
+----------------------------------------------------------------
+-Pin Report - Date: Tue Aug  6 15:27:00 2019 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v12.1
+-Version: 12.600.0.14
+-Design Name: top
+-Family: SmartFusion2
+-Die: M2S025
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port         |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-------------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N      M11  Fixed  DEVRST_N                                    ---       
+LED1_GREEN    J16  Yes    MSIO11PB2/I2C_1_SDA/GPIO_0_A/CCC_NE0_CLKI0  Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED1_RED      K16  Yes    MSIO4PB2/USB_DATA2_B                        Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED2_GREEN    M16  Yes    MSIO1NB2/USB_DIR_B                          Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED2_RED      N16  Yes    MSIO1PB2/USB_XCLK_B                         Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+TCK           R14  Fixed  JTAG_TCK/M3_TCK                             ---       
+TDI           P16  Fixed  JTAG_TDI/M3_TDI                             ---       
+TDO           P14  Fixed  JTAG_TDO/M3_TDO/M3_SWO                      ---       
+TMS           N11  Fixed  JTAG_TMS/M3_TMS/M3_SWDIO                    ---       
+TRSTB         N13  Fixed  JTAG_TRSTB/M3_TRSTB                         ---       
+USER_BUTTON1  H12  Yes    MSI27NB1/MMUART_1_TXD/GPIO_24_B             Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+USER_BUTTON2  H13  Yes    MSIO28NB1/MMUART_1_RXD/GPIO_26_B            Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

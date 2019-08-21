@@ -1,0 +1,20 @@
+Software Version: 12.600.0.14
+Opened 'C:\RISC-V\mi-v\designer\top\top_fp\top.pro'
+The 'open_project' command succeeded.
+PDB file 'C:\RISC-V\mi-v\designer\top\top.pdb' has been loaded successfully.
+DESIGN : top;  CHECKSUM : 0000;  PDB_VERSION : 1.9
+Load Programming Data(s) Finished : Tue Aug 06 15:50:42 2019 (Elapsed time 00:00:01)
+The 'load_programming_data' command succeeded.
+File/Folder 'C:\RISC-V\mi-v\designer\top\top.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'C:\RISC-V\mi-v\designer\top\top.ppd'; file programs Fabric.
+Fabric component bitstream digest: b8cd2ea4bad0e838c776da088aaacf60d9bfc7ea2d1cd59ec6a47ff94faaff21
+Finished: Tue Aug 06 15:51:00 2019 (Elapsed time 00:00:18)
+
+The 'export_single_ppd' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+Exported log file C:\RISC-V\mi-v\designer\top\top_fp\top.log.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

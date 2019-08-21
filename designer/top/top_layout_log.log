@@ -1,0 +1,71 @@
+INFO: Reading User SDC file C:\RISC-V\mi-v\constraint\top_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file C:\RISC-V\mi-v\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 6 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V5.0 - 12.600.0 
+Design: top                             Started: Tue Aug  6 15:22:37 2019
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 6 seconds
+Placement                : 15 seconds
+Improvement              : 65 seconds
+
+Placer completed successfully.
+
+Design: top                             
+Finished: Tue Aug  6 15:24:45 2019
+Total CPU Time:     00:02:21            Total Elapsed Time: 00:02:08
+Total Memory Usage: 536.5 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\RISC-V\mi-v\designer\top\top Started: Tue Aug  6 15:24:56 2019
+
+
+Router completed successfully.
+
+Design: C:\RISC-V\mi-v\designer\top\top 
+Finished: Tue Aug  6 15:26:16 2019
+Total CPU Time:     00:01:18            Total Elapsed Time: 00:01:20
+Total Memory Usage: 895.7 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+-------+-------+------------+
+| Type          | Used  | Total | Percentage |
++---------------+-------+-------+------------+
+| 4LUT          | 11608 | 27696 | 41.91      |
+| DFF           | 5986  | 27696 | 21.61      |
+| I/O Register  | 0     | 408   | 0.00       |
+| Logic Element | 12230 | 27696 | 44.16      |
++---------------+-------+-------+------------+
+

@@ -1,0 +1,8 @@
+DESIGN=top
+DESDIR=C:\RISC-V\mi-v\designer\top
+TARGET_DIR=C:\RISC-V\mi-v\designer\top
+FAM=SmartFusion2
+DIE=PA4M2500_N
+PACKAGE=vf256
+SPEED=STD
+PDC_FILE=C:\RISC-V\mi-v\constraint\io\user.pdc,,
