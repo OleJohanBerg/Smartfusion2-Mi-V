@@ -1,0 +1,257 @@
+#--  Synopsys, Inc.
+#--  Version N-2018.03M-SP1-1
+#--  Project file C:\RISC-V\mi-v\synthesis\scratchproject.prs
+
+#project files
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/coreahblsram_pkg.vhd"
+add_file -vhdl -lib COREAHBLSRAM_LIB "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_ahbtoapbsm.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_apbaddrdata.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3_penablescheduler.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/ahbtoapb3_pkg.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/coreahbtoapb3.vhd"
+add_file -vhdl -lib COREAHBTOAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBTOAPB3/3.1.100/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/COREAHBTOAPB3_C1/COREAHBTOAPB3_C1.vhd"
+add_file -verilog -lib COREJTAGDEBUG_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREJTAGDEBUG/3.0.100/core/corejtagdebug_ujtag_wrapper.v"
+add_file -verilog -lib COREJTAGDEBUG_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREJTAGDEBUG/3.0.100/core/corejtagdebug_uj_jtag.v"
+add_file -verilog -lib COREJTAGDEBUG_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/COREJTAGDEBUG/3.0.100/core/corejtagdebug.v"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/COREJTAGDEBUG_C0/COREJTAGDEBUG_C0.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavearbiter.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavestage.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_defaultslavesm.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_addrdec.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_masterstage.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_matrix4x16.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_pkg.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/work/CoreAHBLite_C0/CoreAHBLite_C0_0/rtl/vhdl/core/coreahblite.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/work/CoreAHBLite_C0/CoreAHBLite_C0_0/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/CoreAHBLite_C0/CoreAHBLite_C0.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/rtl/vhdl/core/coreahblite.vhd"
+add_file -vhdl -lib COREAHBLITE_LIB "C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3_iaddr_reg.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3_muxptob3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3.vhd"
+add_file -vhdl -lib COREAPB3_LIB "C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/coregpio_pkg.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/coregpio.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/CoreGPIO_C0/CoreGPIO_C0.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_OUT/CoreGPIO_OUT_0/rtl/vhdl/core/coregpio_pkg.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_OUT/CoreGPIO_OUT_0/rtl/vhdl/core/coregpio.vhd"
+add_file -vhdl -lib COREGPIO_LIB "C:/RISC-V/mi-v/component/work/CoreGPIO_OUT/CoreGPIO_OUT_0/rtl/vhdl/core/components.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/CoreGPIO_OUT/CoreGPIO_OUT.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/FCCC_C0/FCCC_C0_0/FCCC_C0_FCCC_C0_0_FCCC.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/FCCC_C0/FCCC_C0.vhd"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_capture_chain.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_capture_update_chain_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_capture_update_chain.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_jtag_bypass_chain.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_capture_update_chain_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_reg.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_w4_i15.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_jtag_state_machine.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_negative_edge_latch_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_negative_edge_latch.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_jtag_tap_controller.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_debug_transport_module_jtag.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_w1_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_w2_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_sync_crossing_source_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_xbar.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_synchronizer_shift_reg_w31_d3.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_xing.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlwidth_widget.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlxbar_memory_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_memory_bus_mem_buses_0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlbuffer_periphery_bus_slave_tlbuffer.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlbuffer_periphery_bus_slave_tlfragmenter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_repeater_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_repeater.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_periphery_bus_pbus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d3_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_reset_catch_and_sync_d3.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_amoalu.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_arbiter_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_arbiter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_data_arrays_0_ext.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_data_arrays_0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_dcache_data_array.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tag_array_ext.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tag_array.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlb.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_dcache_dcache.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_data_arrays_0_0_ext.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_data_arrays_0_0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tag_array_0_ext.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tag_array_0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_icache_icache.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_shift_queue.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlb_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_frontend_frontend.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_hella_cache_arbiter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_sync_crossing_sink_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_synchronizer_shift_reg_w1_d3.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_sync_crossing_sink.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_xbar_int_xbar.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_alu.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_breakpoint_unit.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_csrfile.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_rvcexpander.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_ibuf.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_mul_div.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_plusarg_reader.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_rocket.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_11.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_13.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_14.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_15.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_6.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlbuffer_system_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlxbar_tl_master_xbar.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_rocket_tile.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_simple_lazy_module_system_bus_from_tile.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_4.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_5.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlbuffer_system_bus_slave_tlbuffer.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlsplitter_system_bus_master_tlsplitter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlwidth_widget_system_bus_slave_tlwidth_widget.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_identity_module.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlxbar_system_bus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_system_bus_sbus.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d4_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync_3.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d1_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync_4.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync_5.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_synchronizer_shift_reg_w12_d1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_sink_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_synchronizer_shift_reg_w54_d1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_sink_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_valid_sync.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_source_2.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlasync_crossing_sink_dmi_xing.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tldebug_module_inner_async_dm_inner.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_source_1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_dmito_tl_dmi2tl.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_int_sync_crossing_source.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_synchronizer_shift_reg_w42_d1.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_sink.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_queue_source.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlasync_crossing_source_dm_inner.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_async_reset_reg_vec_w32_i0.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tldebug_module_outer_async_dm_outer.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tldebug_module_debug.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_18.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_19.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlerror_error.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlfilter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_level_gateway.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_10.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlplic_plic.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_queue_16.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlto_ahb_converter.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_tlto_ahb.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb_rocket_system.v"
+add_file -verilog "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0_0/core/miv_rv32ima_l1_ahb.v"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/MIV_RV32IMA_L1_AHB_C0/MIV_RV32IMA_L1_AHB_C0.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/OSC_C0/OSC_C0.vhd"
+add_file -vhdl -lib work "C:/RISC-V/mi-v/component/work/top/top.vhd"
+add_file -fpga_constraint "C:/RISC-V/mi-v/designer/top/synthesis.fdc"
+
+
+
+#implementation: "synthesis"
+impl -add C:\RISC-V\mi-v\synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S025
+set_option -package VF256
+set_option -speed_grade STD
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -microsemi_enhanced_flow 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/RISC-V/mi-v/synthesis/top.vm"
+impl -active "synthesis"

@@ -1,0 +1,7 @@
+smartfusion2.AND2
+smartfusion2.SYSRESET
+|work.MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB|parameter ECC_EN 0;,parameter EXT_HALT 0;,parameter RESET_VECTOR_ADDR_0 0;,parameter RESET_VECTOR_ADDR_1 24576;|
+smartfusion2.VCC
+smartfusion2.GND
+smartfusion2.CLKINT
+|work.COREJTAGDEBUG|parameter FAMILY 19;,parameter IR_CODE_TGT_0 85;,parameter IR_CODE_TGT_1 86;,parameter IR_CODE_TGT_2 87;,parameter IR_CODE_TGT_3 88;,parameter IR_CODE_TGT_4 89;,parameter IR_CODE_TGT_5 90;,parameter IR_CODE_TGT_6 91;,parameter IR_CODE_TGT_7 92;,parameter IR_CODE_TGT_8 93;,parameter IR_CODE_TGT_9 94;,parameter IR_CODE_TGT_10 95;,parameter IR_CODE_TGT_11 96;,parameter IR_CODE_TGT_12 97;,parameter IR_CODE_TGT_13 98;,parameter IR_CODE_TGT_14 99;,parameter IR_CODE_TGT_15 100;,parameter NUM_DEBUG_TGTS 1;,parameter TGT_ACTIVE_HIGH_RESET_0 1;,parameter TGT_ACTIVE_HIGH_RESET_1 1;,parameter TGT_ACTIVE_HIGH_RESET_2 1;,parameter TGT_ACTIVE_HIGH_RESET_3 1;,parameter TGT_ACTIVE_HIGH_RESET_4 1;,parameter TGT_ACTIVE_HIGH_RESET_5 1;,parameter TGT_ACTIVE_HIGH_RESET_6 1;,parameter TGT_ACTIVE_HIGH_RESET_7 1;,parameter TGT_ACTIVE_HIGH_RESET_8 1;,parameter TGT_ACTIVE_HIGH_RESET_9 1;,parameter TGT_ACTIVE_HIGH_RESET_10 1;,parameter TGT_ACTIVE_HIGH_RESET_11 1;,parameter TGT_ACTIVE_HIGH_RESET_12 1;,parameter TGT_ACTIVE_HIGH_RESET_13 1;,parameter TGT_ACTIVE_HIGH_RESET_14 1;,parameter TGT_ACTIVE_HIGH_RESET_15 1;,parameter UJTAG_BYPASS 0;|

@@ -1,0 +1,11 @@
+16:31:03 **** Incremental Build of configuration Debug for project miv-rv32im-blinky ****
+make all 
+Invoking: GNU RISC-V Cross Print Size
+riscv64-unknown-elf-size --format=berkeley "miv-rv32im-blinky.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3840	    128	   4128	   8096	   1fa0	miv-rv32im-blinky.elf
+Finished building: miv-rv32im-blinky.siz
+ 
+
+16:31:03 Build Finished. 0 errors, 0 warnings. (took 257ms)
+

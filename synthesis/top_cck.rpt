@@ -1,0 +1,91 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03M-SP1-1
+Install: C:\Microsemi\Libero_SoC_v12.1\SynplifyPro
+OS: Windows 6.2
+
+Hostname: ELNO-OLBE2
+
+Implementation : synthesis
+
+# Written on Tue Aug  6 15:18:35 2019
+
+##### DESIGN INFO #######################################################
+
+Top View:                "top"
+Constraint File(s):      "C:\RISC-V\mi-v\designer\top\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 3 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                             Ending                                               |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                               FCCC_C0_0/FCCC_C0_0/GL0                              |     20.000           |     No paths         |     No paths         |     No paths                         
+System                                               COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     |     10.000           |     No paths         |     10.000           |     No paths                         
+FCCC_C0_0/FCCC_C0_0/GL0                              FCCC_C0_0/FCCC_C0_0/GL0                              |     20.000           |     No paths         |     No paths         |     No paths                         
+FCCC_C0_0/FCCC_C0_0/GL0                              COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     System                                               |     10.000           |     No paths         |     No paths         |     No paths                         
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     FCCC_C0_0/FCCC_C0_0/GL0                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock     |     10.000           |     10.000           |     5.000            |     5.000                            
+=====================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEVRST_N
+p:LED1_GREEN
+p:LED1_RED
+p:LED2_GREEN
+p:LED2_RED
+p:TCK
+p:TDI
+p:TDO
+p:TMS
+p:TRSTB
+p:USER_BUTTON1
+p:USER_BUTTON2
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

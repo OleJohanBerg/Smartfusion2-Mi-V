@@ -1,0 +1,25 @@
+16:53:09 **** Incremental Build of configuration Debug for project RV32_simple_gpio ****
+make all 
+Building file: ../main.c
+Invoking: GNU RISC-V Cross C Compiler
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -msmall-data-limit=8 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\RISC-V\mi-v\workspace\RV32_simple_gpio" -I"C:\RISC-V\mi-v\workspace\RV32_simple_gpio\hal" -I"C:\RISC-V\mi-v\workspace\RV32_simple_gpio\riscv_hal" -I"C:\RISC-V\mi-v\workspace\RV32_simple_gpio\drivers\CoreUARTapb" -I"C:\RISC-V\mi-v\workspace\RV32_simple_gpio\drivers\CoreGPIO" -std=gnu11 -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: RV32_simple_gpio.elf
+Invoking: GNU RISC-V Cross C Linker
+riscv64-unknown-elf-gcc -march=rv32i -mabi=ilp32 -msmall-data-limit=8 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\RISC-V\mi-v\workspace\RV32_simple_gpio\riscv_hal\microsemi-riscv-ram.ld" -nostartfiles -Xlinker --gc-sections -Wl,-Map,"RV32_simple_gpio.map" --specs=nano.specs -o "RV32_simple_gpio.elf"  ./riscv_hal/entry.o ./riscv_hal/init.o ./riscv_hal/riscv_hal.o ./riscv_hal/riscv_hal_stubs.o ./riscv_hal/syscall.o  ./hal/hal_irq.o ./hal/hw_reg_access.o  ./drivers/CoreUARTapb/core_uart_apb.o  ./drivers/CoreGPIO/core_gpio.o  ./main.o   
+Finished building target: RV32_simple_gpio.elf
+ 
+Invoking: GNU RISC-V Cross Create Flash Image
+riscv64-unknown-elf-objcopy -O ihex "RV32_simple_gpio.elf"  "RV32_simple_gpio.hex"
+Finished building: RV32_simple_gpio.hex
+ 
+Invoking: GNU RISC-V Cross Print Size
+riscv64-unknown-elf-size --format=berkeley "RV32_simple_gpio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4640	    128	   4128	   8896	   22c0	RV32_simple_gpio.elf
+Finished building: RV32_simple_gpio.siz
+ 
+
+16:53:10 Build Finished. 0 errors, 0 warnings. (took 806ms)
+

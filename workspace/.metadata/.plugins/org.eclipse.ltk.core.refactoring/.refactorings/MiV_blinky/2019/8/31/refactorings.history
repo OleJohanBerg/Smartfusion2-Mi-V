@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MiV_blinky/hw_platform&apos; to &apos;hw_platform.h&apos;" description="Rename resource &apos;hw_platform&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="hw_platform" name="hw_platform.h" stamp="1564742575682" updateReferences="true"/>
+</session>

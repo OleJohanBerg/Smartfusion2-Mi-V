@@ -1,0 +1,53 @@
+16:36:19 **** Incremental Build of configuration Debug for project MiV_blinky ****
+make all 
+Building target: MiV_blinky.elf
+Invoking: GNU RISC-V Cross C Linker
+riscv64-unknown-elf-gcc -march=rv32im -mabi=ilp32 -msmall-data-limit=8 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:\RISC-V\mi-v\workspace\MiV_blinky\riscv_hal\microsemi-riscv-ram.ld" -Xlinker --gc-sections -Wl,-Map,"MiV_blinky.map" --specs=nano.specs -o "MiV_blinky.elf"  ./riscv_hal/entry.o ./riscv_hal/init.o ./riscv_hal/riscv_hal.o ./riscv_hal/riscv_hal_stubs.o ./riscv_hal/syscall.o  ./hal/hal_irq.o ./hal/hw_reg_access.o  ./drivers/CoreGPIO/core_gpio.o  ./main.o   
+./riscv_hal/entry.o: In function `.L0 ':
+C:\RISC-V\mi-v\workspace\MiV_blinky\Debug/../riscv_hal/entry.S:30: multiple definition of `_start'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o:(.text+0x0): first defined here
+./riscv_hal/init.o: In function `_init':
+C:\RISC-V\mi-v\workspace\MiV_blinky\Debug/../riscv_hal/init.c:58: multiple definition of `_init'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o:(.text+0x5c): first defined here
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: Warning: size of symbol `_init' changed from 4 in c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o to 174 in ./riscv_hal/init.o
+./riscv_hal/init.o: In function `_fini':
+C:\RISC-V\mi-v\workspace\MiV_blinky\Debug/../riscv_hal/init.c:74: multiple definition of `_fini'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o:(.text+0x5c): first defined here
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: Warning: size of symbol `_fini' changed from 4 in c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o to 14 in ./riscv_hal/init.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/entry.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./riscv_hal/entry.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/init.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./riscv_hal/init.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/riscv_hal.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./riscv_hal/riscv_hal.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/riscv_hal_stubs.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./riscv_hal/riscv_hal_stubs.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/syscall.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./riscv_hal/syscall.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./hal/hal_irq.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./hal/hal_irq.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./hal/hw_reg_access.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./hal/hw_reg_access.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./drivers/CoreGPIO/core_gpio.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./drivers/CoreGPIO/core_gpio.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./main.o: ABI is incompatible with that of the selected emulation:
+  target emulation `elf64-littleriscv' does not match `elf32-littleriscv'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: failed to merge target specific data of file ./main.o
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/lib/rv32im/ilp32/crt0.o: In function `.L0 ':
+(.text+0x8): undefined reference to `_edata'
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: MiV_blinky.elf(.text._init): relocation "__bss_end+0x0 (type R_RISCV_HI20)" goes out of range
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: ./riscv_hal/init.o: file class ELFCLASS64 incompatible with ELFCLASS32
+c:/microsemi/softconsole_v6.0/riscv-unknown-elf-gcc/bin/../lib/gcc/riscv64-unknown-elf/7.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: final link failed: File in wrong format
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:49: MiV_blinky.elf] Error 1
+
+16:36:20 Build Failed. 29 errors, 2 warnings. (took 537ms)
+

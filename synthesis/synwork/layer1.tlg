@@ -1,0 +1,1046 @@
+Could not match passed parameter, trying a case insensitive search ...
+Could not match passed parameter, trying a case insensitive search ...
+Could not match passed parameter, trying a case insensitive search ...
+Could not match passed parameter, trying a case insensitive search ...
+@N: CG364 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":22:7:22:19|Synthesizing module COREJTAGDEBUG in library COREJTAGDEBUG_LIB.
+
+	FAMILY=32'b00000000000000000000000000010011
+	NUM_DEBUG_TGTS=32'b00000000000000000000000000000001
+	TGT_ACTIVE_HIGH_RESET_0=32'b00000000000000000000000000000001
+	IR_CODE_TGT_0=8'b01010101
+	TGT_ACTIVE_HIGH_RESET_1=32'b00000000000000000000000000000001
+	IR_CODE_TGT_1=8'b01010110
+	TGT_ACTIVE_HIGH_RESET_2=32'b00000000000000000000000000000001
+	IR_CODE_TGT_2=8'b01010111
+	TGT_ACTIVE_HIGH_RESET_3=32'b00000000000000000000000000000001
+	IR_CODE_TGT_3=8'b01011000
+	TGT_ACTIVE_HIGH_RESET_4=32'b00000000000000000000000000000001
+	IR_CODE_TGT_4=8'b01011001
+	TGT_ACTIVE_HIGH_RESET_5=32'b00000000000000000000000000000001
+	IR_CODE_TGT_5=8'b01011010
+	TGT_ACTIVE_HIGH_RESET_6=32'b00000000000000000000000000000001
+	IR_CODE_TGT_6=8'b01011011
+	TGT_ACTIVE_HIGH_RESET_7=32'b00000000000000000000000000000001
+	IR_CODE_TGT_7=8'b01011100
+	TGT_ACTIVE_HIGH_RESET_8=32'b00000000000000000000000000000001
+	IR_CODE_TGT_8=8'b01011101
+	TGT_ACTIVE_HIGH_RESET_9=32'b00000000000000000000000000000001
+	IR_CODE_TGT_9=8'b01011110
+	TGT_ACTIVE_HIGH_RESET_10=32'b00000000000000000000000000000001
+	IR_CODE_TGT_10=8'b01011111
+	TGT_ACTIVE_HIGH_RESET_11=32'b00000000000000000000000000000001
+	IR_CODE_TGT_11=8'b01100000
+	TGT_ACTIVE_HIGH_RESET_12=32'b00000000000000000000000000000001
+	IR_CODE_TGT_12=8'b01100001
+	TGT_ACTIVE_HIGH_RESET_13=32'b00000000000000000000000000000001
+	IR_CODE_TGT_13=8'b01100010
+	TGT_ACTIVE_HIGH_RESET_14=32'b00000000000000000000000000000001
+	IR_CODE_TGT_14=8'b01100011
+	TGT_ACTIVE_HIGH_RESET_15=32'b00000000000000000000000000000001
+	IR_CODE_TGT_15=8'b01100100
+	UJTAG_BYPASS=32'b00000000000000000000000000000000
+	IR_CODE_TGT=128'b01100100011000110110001001100001011000000101111101011110010111010101110001011011010110100101100101011000010101110101011001010101
+	TGT_ACTIVE_HIGH_RESET=16'b1111111111111111
+	USE_NEW_UJTAG=32'b00000000000000000000000000000001
+	USE_UJTAG_WRAPPER=32'b00000000000000000000000000000001
+   Generated name = COREJTAGDEBUG_Z1_layer1
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":689:7:689:11|Synthesizing module UJTAG in library work.
+Running optimization stage 1 on UJTAG .......
+@N: CG364 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug_ujtag_wrapper.v":39:7:39:33|Synthesizing module COREJTAGDEBUG_UJTAG_WRAPPER in library COREJTAGDEBUG_LIB.
+Running optimization stage 1 on COREJTAGDEBUG_UJTAG_WRAPPER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug_uj_jtag.v":47:7:47:27|Synthesizing module COREJTAGDEBUG_UJ_JTAG in library COREJTAGDEBUG_LIB.
+
+	IR_CODE_TGT=8'b01010101
+	NUM_LEAD_PAD_BITS=8'b00000000
+	NUM_TRAIL_PAD_BITS=8'b00000000
+   Generated name = COREJTAGDEBUG_UJ_JTAG_85_0_0
+Running optimization stage 1 on COREJTAGDEBUG_UJ_JTAG_85_0_0 .......
+@N: CG364 :"C:\Microsemi\Libero_SoC_v12.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":147:8:147:52|Removing wire UJTAG_BYPASS_TDO_0, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":154:8:154:52|Removing wire UJTAG_BYPASS_TDO_1, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":161:8:161:52|Removing wire UJTAG_BYPASS_TDO_2, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":168:8:168:52|Removing wire UJTAG_BYPASS_TDO_3, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":219:28:219:35|Removing wire URSTBInt, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":220:28:220:38|Removing wire URSTBInvInt, as there is no assignment to it.
+Running optimization stage 1 on COREJTAGDEBUG_Z1_layer1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_int_xbar.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_identity_module.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IDENTITY_MODULE in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IDENTITY_MODULE .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_SYSTEM_BUS in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":718:13:718:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":718:13:718:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":714:13:714:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":714:13:714:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":710:13:710:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":710:13:710:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":706:13:706:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":706:13:706:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":702:13:702:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":702:13:702:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":698:13:698:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":698:13:698:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":693:2:693:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":161:13:161:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":163:13:163:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":165:13:165:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":167:13:167:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":169:13:169:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":171:13:171:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":692:10:692:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_SYSTEM_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":64:7:64:76|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":262:13:262:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":262:13:262:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":257:13:257:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":257:13:257:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":252:13:252:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":252:13:252:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":247:13:247:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":247:13:247:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":242:13:242:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":242:13:242:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":237:13:237:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":237:13:237:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":233:2:233:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":87:13:87:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":95:13:95:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":103:13:103:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":111:13:111:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":119:13:119:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":127:13:127:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":135:13:135:19|Object _RAND_6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":143:13:143:19|Object _RAND_7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":145:13:145:19|Object _RAND_8 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":147:13:147:19|Object _RAND_9 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":232:10:232:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_mask, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_address, depth=2, width=31
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_source, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_size, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_param, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue.v":286:2:286:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":64:7:64:78|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_1 in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":262:13:262:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":262:13:262:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":257:13:257:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":257:13:257:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":252:13:252:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":252:13:252:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":247:13:247:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":247:13:247:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":242:13:242:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":242:13:242:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":237:13:237:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":237:13:237:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":233:2:233:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":87:13:87:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":95:13:95:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":103:13:103:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":111:13:111:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":119:13:119:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":127:13:127:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":135:13:135:19|Object _RAND_6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":143:13:143:19|Object _RAND_7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":145:13:145:19|Object _RAND_8 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":147:13:147:19|Object _RAND_9 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":232:10:232:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_1 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_error, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_sink, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_source, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_size, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_param, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_1.v":286:2:286:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":64:7:64:78|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_4 in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":193:13:193:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":193:13:193:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":189:13:189:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":189:13:189:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":185:13:185:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":185:13:185:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":179:13:179:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":179:13:179:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":174:13:174:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":174:13:174:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":169:13:169:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":169:13:169:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":165:2:165:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":79:13:79:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":87:13:87:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":95:13:95:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":103:13:103:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":105:13:105:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":107:13:107:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":164:10:164:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_4 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":198:2:198:7|Found RAM ram_source, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":198:2:198:7|Found RAM ram_size, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_4.v":198:2:198:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":64:7:64:78|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_5 in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":259:13:259:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":259:13:259:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":255:13:255:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":255:13:255:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":251:13:251:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":251:13:251:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":245:13:245:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":245:13:245:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":240:13:240:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":240:13:240:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":235:13:235:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":235:13:235:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":230:13:230:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":230:13:230:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":225:13:225:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":225:13:225:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":220:13:220:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":220:13:220:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":216:2:216:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":85:13:85:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":93:13:93:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":101:13:101:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":109:13:109:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":117:13:117:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":125:13:125:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":133:13:133:19|Object _RAND_6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":135:13:135:19|Object _RAND_7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":137:13:137:19|Object _RAND_8 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":215:10:215:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_5 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_error, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_source, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_size, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_param, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_5.v":264:2:264:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlbuffer_system_bus_slave_tlbuffer.v":64:7:64:105|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS_SLAVE_TLBUFFER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS_SLAVE_TLBUFFER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlwidth_widget_system_bus_slave_tlwidth_widget.v":64:7:64:117|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET_SYSTEM_BUS_SLAVE_TLWIDTH_WIDGET in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET_SYSTEM_BUS_SLAVE_TLWIDTH_WIDGET .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlsplitter_system_bus_master_tlsplitter.v":64:7:64:110|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLSPLITTER_SYSTEM_BUS_MASTER_TLSPLITTER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLSPLITTER_SYSTEM_BUS_MASTER_TLSPLITTER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":64:7:64:110|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS_PBUS_TLFIFOFIXER in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":299:13:299:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":299:13:299:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":295:13:295:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":295:13:295:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":291:13:291:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":291:13:291:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":287:13:287:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":287:13:287:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":283:13:283:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":283:13:283:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":278:2:278:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":105:13:105:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":107:13:107:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":109:13:109:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":111:13:111:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":113:13:113:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus_pbus_tlfifofixer.v":277:10:277:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS_PBUS_TLFIFOFIXER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":64:7:64:78|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_6 in library work.
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":281:13:281:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":277:13:277:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":273:13:273:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+@W: CG390 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":267:13:267:13|Repeat multiplier in concatenation evaluates to 1
+
+Only the first 100 messages of id 'CG390' are reported. To see all messages use 'report_messages -log C:\RISC-V\mi-v\synthesis\synlog\top_compiler.srr -id CG390' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG390} -count unlimited' in the Tcl shell.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":233:2:233:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":87:13:87:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":95:13:95:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":103:13:103:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":111:13:111:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":119:13:119:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":127:13:127:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":135:13:135:19|Object _RAND_6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":143:13:143:19|Object _RAND_7 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":145:13:145:19|Object _RAND_8 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":147:13:147:19|Object _RAND_9 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":232:10:232:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_6 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_error, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_sink, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_source, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_size, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_param, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_6.v":286:2:286:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":64:7:64:94|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLCACHE_CORK_SYSTEM_BUS in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":747:2:747:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":111:13:111:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":113:13:113:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":115:13:115:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":157:13:157:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":159:13:159:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":161:13:161:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":163:13:163:19|Object _RAND_6 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlcache_cork_system_bus.v":746:10:746:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLCACHE_CORK_SYSTEM_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":64:7:64:93|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":303:2:303:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":103:13:103:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":105:13:105:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":107:13:107:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":109:13:109:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":111:13:111:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfifofixer_system_bus.v":302:10:302:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_simple_lazy_module_system_bus_from_tile.v":64:7:64:110|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SIMPLE_LAZY_MODULE_SYSTEM_BUS_FROM_TILE in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SIMPLE_LAZY_MODULE_SYSTEM_BUS_FROM_TILE .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_system_bus_sbus.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYSTEM_BUS_SBUS in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYSTEM_BUS_SBUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":64:7:64:91|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_PERIPHERY_BUS in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":513:2:513:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":131:13:131:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":133:13:133:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":135:13:135:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":137:13:137:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":139:13:139:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":512:10:512:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_PERIPHERY_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlbuffer_periphery_bus_slave_tlbuffer.v":64:7:64:108|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLBUFFER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLBUFFER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":146:2:146:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":85:13:85:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":87:13:87:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":89:13:89:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":91:13:91:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":93:13:93:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":95:13:95:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater.v":145:10:145:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":64:7:64:81|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER_2 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":146:2:146:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":85:13:85:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":87:13:87:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":89:13:89:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":91:13:91:19|Object _RAND_3 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":93:13:93:19|Object _RAND_4 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":95:13:95:19|Object _RAND_5 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_repeater_2.v":145:10:145:16|Object initvar is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER_2 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":64:7:64:116|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFRAGMENTER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":1012:2:1012:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":156:13:156:19|Object _RAND_0 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":158:13:158:19|Object _RAND_1 is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":160:13:160:19|Object _RAND_2 is declared but not assigned. Either assign a value or remove the declaration.
+
+Only the first 100 messages of id 'CG133' are reported. To see all messages use 'report_messages -log C:\RISC-V\mi-v\synthesis\synlog\top_compiler.srr -id CG133' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG133} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFRAGMENTER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":1090:2:1090:7|Register bit _T_688 is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":1090:2:1090:7|Register bit _T_912 is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfragmenter_periphery_bus_slave_tlfragmenter.v":1090:2:1090:7|Register bit _T_1136 is always 0.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v":64:7:64:121|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLATOMIC_AUTOMATA_PERIPHERY_BUS_SLAVE_TLFRAGMENTER in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v":1126:2:1126:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLATOMIC_AUTOMATA_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+@W: CL271 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v":1196:2:1196:7|Pruning unused bits 2 to 1 of _T_232_0_bits_opcode[2:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v":1196:2:1196:7|Register bit _T_232_0_lut[0] is always 0.
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlatomic_automata_periphery_bus_slave_tlfragmenter.v":1196:2:1196:7|Pruning register bit 0 of _T_232_0_lut[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlbuffer_periphery_bus_slave_tlfragmenter.v":64:7:64:112|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_periphery_bus_pbus.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PERIPHERY_BUS_PBUS in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PERIPHERY_BUS_PBUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlwidth_widget.v":64:7:64:85|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_memory_bus.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_MEMORY_BUS in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_MEMORY_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_memory_bus_mem_buses_0.v":64:7:64:93|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_MEMORY_BUS_MEM_BUSES_0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_MEMORY_BUS_MEM_BUSES_0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlfilter.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFILTER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFILTER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_level_gateway.v":64:7:64:84|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_level_gateway.v":87:2:87:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_10.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_10 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_10.v":175:2:175:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_10 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlplic_plic.v":64:7:64:82|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlplic_plic.v":4030:2:4030:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC .......
+@W: CL168 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlplic_plic.v":2014:81:2014:112|Removing instance MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v":64:7:64:103|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v":545:2:545:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dmito_tl_dmi2tl.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DMITO_TL_DMI2TL in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DMITO_TL_DMI2TL .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_DMI_XBAR in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":401:2:401:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_DMI_XBAR .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_reg.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_reg_vec_w32_i0.v":64:7:64:97|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W32_I0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W32_I0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_reg_vec_w1_i0.v":64:7:64:96|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":64:7:64:100|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_DM_OUTER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_DM_OUTER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_int_sync_crossing_source.v":64:7:64:95|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SOURCE in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SOURCE .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d3_i0.v":64:7:64:114|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D3_I0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D3_I0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d4_i0.v":64:7:64:114|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D4_I0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D4_I0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync.v":64:7:64:87|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_reset_synchronizer_shift_reg_w1_d1_i0.v":64:7:64:114|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D1_I0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D1_I0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync_1.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_1 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync_2.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_2 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_2 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source.v":246:2:246:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w42_d1.v":64:7:64:100|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W42_D1 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w42_d1.v":74:2:74:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W42_D1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync_3.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_3 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_3 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync_4.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_4 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_4 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_valid_sync_5.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_5 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_5 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink.v":64:7:64:87|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK .......
+@W: CL168 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink.v":206:93:206:136|Removing instance MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlasync_crossing_source_dm_inner.v":64:7:64:103|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SOURCE_DM_INNER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SOURCE_DM_INNER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_1.v":64:7:64:91|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_1.v":221:2:221:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_async_dm_outer.v":64:7:64:106|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_ASYNC_DM_OUTER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_ASYNC_DM_OUTER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":64:7:64:100|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_DM_INNER in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7047:2:7047:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_DM_INNER .......
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved2 is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_reserved0[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_reserved0[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_reserved0[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_reserved0[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_datacount[0] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_datacount[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_datacount[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_datacount[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_datacount[4] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_progbufsize[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_progbufsize[1] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_progbufsize[2] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_progbufsize[3] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_progbufsize[4] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved0[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved0[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved0[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[4] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[5] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[6] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[7] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[8] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[9] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved1[10] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved3[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved3[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTCSReg_reserved3[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[1] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[4] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[5] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[6] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[7] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[8] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[9] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[10] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecdata[11] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecprogbuf[14] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit ABSTRACTAUTOReg_autoexecprogbuf[15] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[0] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[1] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[6] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[15] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[16] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[17] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[18] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[19] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[25] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[26] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[30] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_0[31] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[0] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[1] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[2] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[3] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[4] is always 1.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[7] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[8] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[9] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[10] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[11] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[12] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[13] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[14] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[15] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[16] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[17] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[18] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[19] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[21] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[22] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[23] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[24] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[25] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[26] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[27] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[28] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[29] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[30] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Register bit abstractGeneratedMem_1[31] is always 0.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 31 to 30 of abstractGeneratedMem_0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 26 to 25 of abstractGeneratedMem_0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 19 to 15 of abstractGeneratedMem_0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bit 6 of abstractGeneratedMem_0[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 3 to 0 of abstractGeneratedMem_0[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 31 to 21 of abstractGeneratedMem_1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 19 to 7 of abstractGeneratedMem_1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 4 to 0 of abstractGeneratedMem_1[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 11 to 1 of ABSTRACTAUTOReg_autoexecdata[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 15 to 14 of ABSTRACTAUTOReg_autoexecprogbuf[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w54_d1.v":64:7:64:100|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W54_D1 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w54_d1.v":74:2:74:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W54_D1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink_1.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_1 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_1 .......
+@W: CL168 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink_1.v":206:93:206:136|Removing instance MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_2.v":64:7:64:91|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_2 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_2.v":246:2:246:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_2 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlasync_crossing_sink_dmi_xing.v":64:7:64:101|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SINK_DMI_XING in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SINK_DMI_XING .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w12_d1.v":64:7:64:100|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W12_D1 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w12_d1.v":74:2:74:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W12_D1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink_2.v":64:7:64:89|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2 .......
+@W: CL168 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_sink_2.v":184:93:184:136|Removing instance MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_reset_catch_and_sync_d3.v":64:7:64:94|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RESET_CATCH_AND_SYNC_D3 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RESET_CATCH_AND_SYNC_D3 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_async_dm_inner.v":64:7:64:106|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_ASYNC_DM_INNER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_ASYNC_DM_INNER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_debug.v":64:7:64:91|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_DEBUG in library work.
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_debug.v":138:8:138:30|Removing wire dmOuter_io_ctrl_haltreq, as there is no assignment to it.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_DEBUG .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_tl_master_xbar.v":64:7:64:92|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_TL_MASTER_XBAR in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_tl_master_xbar.v":440:2:440:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_TL_MASTER_XBAR .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_int_xbar_int_xbar.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR_INT_XBAR in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR_INT_XBAR .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_arbiter.v":64:7:64:78|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_ext.v":64:7:64:84|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_EXT in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_ext.v":78:4:78:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_EXT .......
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_ext.v":86:2:86:7|Pruning unused register reg_RW0_ren. Make sure that there are no unused intermediate registers.
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_ext.v":106:21:106:38|Found RAM ram, depth=128, width=21
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array.v":64:7:64:80|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_EXT in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":79:4:79:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_EXT .......
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":87:2:87:7|Pruning unused register reg_RW0_ren. Make sure that there are no unused intermediate registers.
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":110:21:110:38|Found RAM ram, depth=2048, width=8
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":110:21:110:38|Found RAM ram, depth=2048, width=8
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":110:21:110:38|Found RAM ram, depth=2048, width=8
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_ext.v":110:21:110:38|Found RAM ram, depth=2048, width=8
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0.v":64:7:64:84|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_data_array.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DATA_ARRAY in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DATA_ARRAY .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_arbiter_1.v":64:7:64:80|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER_1 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER_1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb.v":64:7:64:74|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb.v":549:2:549:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_amoalu.v":64:7:64:77|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_AMOALU in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_AMOALU .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":64:7:64:84|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DCACHE in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2559:2:2559:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DCACHE .......
+@W: CL271 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Pruning unused bits 31 to 2 of uncachedReqs_0_addr[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Pruning unused bits 31 to 13 of pstore1_addr[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Pruning unused bits 31 to 13 of pstore2_addr[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Register bit s2_waw_hazard is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Register bit _T_948 is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Register bit s2_meta_correctable_errors is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Register bit s2_meta_uncorrectable_errors is always 0.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_0_ext.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0_EXT in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_0_ext.v":79:4:79:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0_EXT .......
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_0_ext.v":87:2:87:7|Pruning unused register reg_RW0_ren. Make sure that there are no unused intermediate registers.
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_0_ext.v":107:21:107:38|Found RAM ram, depth=128, width=20
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tag_array_0.v":64:7:64:82|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_0_ext.v":64:7:64:90|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0_EXT in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_0_ext.v":79:4:79:10|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0_EXT .......
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_0_ext.v":87:2:87:7|Pruning unused register reg_RW0_ren. Make sure that there are no unused intermediate registers.
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_0_ext.v":107:21:107:38|Found RAM ram, depth=2048, width=32
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_data_arrays_0_0.v":64:7:64:86|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":64:7:64:84|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ICACHE_ICACHE in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":342:2:342:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ICACHE_ICACHE .......
+@W: CL271 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":396:2:396:7|Pruning unused bits 5 to 0 of refill_addr[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb_1.v":64:7:64:76|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB_1 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb_1.v":302:2:302:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB_1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_shift_queue.v":64:7:64:82|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_shift_queue.v":397:2:397:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":64:7:64:88|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":353:2:353:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND .......
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":407:2:407:7|Register bit s2_tlb_resp_miss is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":407:2:407:7|Register bit s1_pc[0] is always 0.
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":407:2:407:7|Register bit s1_pc[1] is always 0.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":407:2:407:7|Pruning register bits 1 to 0 of s1_pc[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_11 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":233:2:233:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_11 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_mask, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_address, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_source, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_size, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_param, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_11.v":286:2:286:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_13.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_13 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_13.v":159:2:159:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_13 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_14 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":199:2:199:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_14 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":242:2:242:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":242:2:242:7|Found RAM ram_address, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":242:2:242:7|Found RAM ram_source, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":242:2:242:7|Found RAM ram_size, depth=2, width=4
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_14.v":242:2:242:7|Found RAM ram_opcode, depth=2, width=3
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_15.v":64:7:64:79|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_15 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_15.v":111:2:111:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_15 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlbuffer_system_bus.v":64:7:64:90|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w1_d3.v":64:7:64:99|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W1_D3 in library work.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w1_d3.v":78:2:78:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W1_D3 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_int_sync_crossing_sink.v":64:7:64:93|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_int_sync_crossing_sink_1.v":64:7:64:95|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK_1 in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK_1 .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_hella_cache_arbiter.v":64:7:64:90|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_HELLA_CACHE_ARBITER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_HELLA_CACHE_ARBITER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rvcexpander.v":64:7:64:82|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RVCEXPANDER in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RVCEXPANDER .......
+@N: CG364 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_ibuf.v":64:7:64:75|Synthesizing module MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IBUF in library work.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IBUF .......
+
+Only the first 100 messages of id 'CG364' are reported. To see all messages use 'report_messages -log C:\RISC-V\mi-v\synthesis\synlog\top_compiler.srr -id CG364' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CG364} -count unlimited' in the Tcl shell.
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1398:2:1398:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CSRFILE .......
+@N: CL189 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Register bit reg_mstatus_spp is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log C:\RISC-V\mi-v\synthesis\synlog\top_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bit 1 of reg_mtvec[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bit 0 of reg_mepc[31:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 31 to 12 of reg_mie[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 10 to 8 of reg_mie[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 6 to 4 of reg_mie[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 2 to 0 of reg_mie[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 31 to 13 of reg_misa[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 11 to 1 of reg_misa[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bits 1 to 0 of reg_dpc[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_BREAKPOINT_UNIT .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ALU .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_mul_div.v":367:2:367:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_MUL_DIV .......
+
+	FORMAT=144'b011011010110000101111000001011010110001101101111011100100110010100101101011000110111100101100011011011000110010101110011001111010010010101100100
+	DEFAULT=32'b00000000000000000000000000000000
+   Generated name = MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PLUSARG_READER_max-core-cycles=%d_0s
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PLUSARG_READER_max-core-cycles=%d_0s .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2498:2:2498:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET .......
+@W: CL168 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":1488:128:1488:160|Removing instance MIV_RV32IMA_L1_AHB_PLUSARG_READER because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Pruning unused register _T_2405[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Pruning unused register _T_2407[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Pruning unused register _T_2410[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Pruning unused register _T_2412[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL265 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Removing unused bit 0 of _T_2151[31:0]. Either assign all bits or reduce the width of the signal.
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Found RAM _T_1151, depth=31, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Found RAM _T_1151, depth=31, width=32
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket.v":2835:2:2835:7|Pruning register bit 4 of ex_ctrl_mem_cmd[4:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W2_I0 .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SOURCE_2 .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w31_d3.v":78:2:78:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W31_D3 .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XING .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":253:2:253:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_16 .......
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_error, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_data, depth=2, width=32
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_sink, depth=2, width=1
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_source, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_size, depth=2, width=3
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_param, depth=2, width=2
+@N: CL134 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_16.v":306:2:306:7|Found RAM ram_opcode, depth=2, width=3
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb_converter.v":460:2:460:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLTO_AHB_CONVERTER .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb.v":459:2:459:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLTO_AHB .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_18.v":141:2:141:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_18 .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_19.v":131:2:131:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_19 .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlerror_error.v":375:2:375:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLERROR_ERROR .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain.v":493:2:493:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain_1.v":611:2:611:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_1 .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":357:2:357:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_negative_edge_latch.v":74:2:74:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W4_I15 .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_STATE_MACHINE .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain_2.v":146:2:146:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_2 .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_negative_edge_latch_2.v":77:2:77:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2 .......
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_jtag_bypass_chain.v":102:2:102:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_BYPASS_CHAIN .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_debug_transport_module_jtag.v":467:2:467:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG .......
+@W: CG532 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_rocket_system.v":1835:2:1835:8|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET_SYSTEM .......
+
+	RESET_VECTOR_ADDR_1=32'b00000000000000000110000000000000
+	RESET_VECTOR_ADDR_0=32'b00000000000000000000000000000000
+	EXT_HALT=32'b00000000000000000000000000000000
+	ECC_EN=32'b00000000000000000000000000000000
+   Generated name = MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_24576s_0s_0s_0s
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":57:18:57:27|Removing wire ICACHE_SEC, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":58:18:58:27|Removing wire ICACHE_DED, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":59:18:59:27|Removing wire DCACHE_SEC, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":60:18:60:27|Removing wire DCACHE_DED, as there is no assignment to it.
+@W: CG360 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":103:34:103:40|Removing wire DRV_TDO, as there is no assignment to it.
+Running optimization stage 1 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_24576s_0s_0s_0s .......
+@W: CL318 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":57:18:57:27|*Output ICACHE_SEC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":58:18:58:27|*Output ICACHE_DED has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":59:18:59:27|*Output DCACHE_SEC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":60:18:60:27|*Output DCACHE_DED has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb.v":103:34:103:40|*Output DRV_TDO has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_24576s_0s_0s_0s .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET_SYSTEM .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DEBUG_TRANSPORT_MODULE_JTAG .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_BYPASS_CHAIN .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_jtag_bypass_chain.v":66:10:66:14|Input reset is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_jtag_bypass_chain.v":70:10:70:26|Input io_chainIn_update is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_TAP_CONTROLLER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH_2 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_2 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain_2.v":66:15:66:19|Input reset is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_JTAG_STATE_MACHINE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W4_I15 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_NEGATIVE_EDGE_LATCH .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_CHAIN .......
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":491:2:491:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":491:2:491:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":491:2:491:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":491:2:491:7|Found sequential shift regs with address depth of 4 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":491:2:491:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":66:16:66:20|Input reset is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_chain.v":70:16:70:32|Input io_chainIn_update is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN_1 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain_1.v":66:16:66:20|Input reset is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CAPTURE_UPDATE_CHAIN .......
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain.v":627:2:627:7|Found sequential shift regs with address depth of 16 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain.v":627:2:627:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain.v":627:2:627:7|Found sequential shift regs with address depth of 3 words and data bit width of 1.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_capture_update_chain.v":66:15:66:19|Input reset is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLERROR_ERROR .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_19 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_19.v":65:15:65:19|Input clock is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_19.v":66:15:66:19|Input reset is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_19.v":67:15:67:26|Input io_deq_ready is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_18 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLTO_AHB .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb.v":537:2:537:7|Pruning register bit 2 of _T_167_hsize[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb.v":69:16:69:36|Input port bits 1 to 0 of auto_in_a_bits_opcode[2:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLTO_AHB_CONVERTER .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb_converter.v":538:2:538:7|Pruning register bit 2 of _T_167_hsize[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlto_ahb_converter.v":70:16:70:36|Input port bits 1 to 0 of auto_in_a_bits_opcode[2:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_16 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XING .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W31_D3 .......
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w31_d3.v":96:2:96:7|Found sequential shift sync with address depth of 3 words and data bit width of 31.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SOURCE_2 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W2_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET_TILE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ROCKET .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PLUSARG_READER_max-core-cycles=%d_0s .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_MUL_DIV .......
+@N: CL201 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_mul_div.v":405:2:405:7|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   101
+   110
+   111
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ALU .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_BREAKPOINT_UNIT .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_CSRFILE .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_csrfile.v":1556:2:1556:7|Pruning register bit 1 of reg_mepc[31:1]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IBUF .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_ibuf.v":65:16:65:20|Input clock is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RVCEXPANDER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_HELLA_CACHE_ARBITER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SINK .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W1_D3 .......
+@N: CL135 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_synchronizer_shift_reg_w1_d3.v":96:2:96:7|Found sequential shift sync with address depth of 3 words and data bit width of 1.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_15 .......
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_15.v":129:2:129:7|Pruning unused register maybe_full. Make sure that there are no unused intermediate registers.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_14 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_13 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_13.v":65:16:65:20|Input clock is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_13.v":66:16:66:20|Input reset is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_queue_13.v":67:16:67:27|Input io_deq_ready is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_11 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_FRONTEND_FRONTEND .......
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":407:2:407:7|Pruning register bits 1 to 0 of s2_pc[31:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":75:16:75:30|Input port bits 1 to 0 of io_reset_vector[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_frontend_frontend.v":77:16:77:33|Input port bits 1 to 0 of io_cpu_req_bits_pc[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SHIFT_QUEUE .......
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_shift_queue.v":563:2:563:7|Removing register 'elts_4_btb_bridx' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_shift_queue.v":563:2:563:7|Removing register 'elts_4_btb_taken' because it is only assigned 0 or its original value.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB_1 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb_1.v":65:16:65:20|Input clock is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ICACHE_ICACHE .......
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":396:2:396:7|Removing register 's2_tag_disparity' because it is only assigned 0 or its original value.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":71:16:71:44|Input port bits 2 to 1 of auto_master_out_d_bits_opcode[2:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":77:16:77:31|Input port bits 31 to 13 of io_req_bits_addr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":77:16:77:31|Input port bits 1 to 0 of io_req_bits_addr[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_icache_icache.v":78:16:78:26|Input port bits 5 to 0 of io_s1_paddr[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_0_EXT .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_0_EXT .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DCACHE .......
+@N: CL201 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_dcache.v":2861:2:2861:7|Trying to extract state machine for register release_state.
+Extracted state machine for register release_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   101
+   110
+   111
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_AMOALU .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLB .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb.v":65:16:65:20|Input clock is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlb.v":66:16:66:27|Input io_req_valid is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DCACHE_DATA_ARRAY .......
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_dcache_data_array.v":67:16:67:31|Input port bits 1 to 0 of io_req_bits_addr[12:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DATA_ARRAYS_0_EXT .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TAG_ARRAY_EXT .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ARBITER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR_INT_XBAR .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_TL_MASTER_XBAR .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_tl_master_xbar.v":462:2:462:7|Pruning register bit 1 of _T_1186[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_DEBUG .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_ASYNC_DM_INNER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_RESET_CATCH_AND_SYNC_D3 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_2 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W12_D1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SINK_DMI_XING .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_2 .......
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_2.v":280:2:280:7|Removing register 'mem_0_error' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_2.v":280:2:280:7|Removing register 'mem_0_param' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source_2.v":280:2:280:7|Removing register 'mem_0_sink' because it is only assigned 0 or its original value.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W54_D1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_INNER_DM_INNER .......
+@N: CL201 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Trying to extract state machine for register ctrlStateReg.
+Extracted state machine for register ctrlStateReg
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL279 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bits 29 to 28 of abstractGeneratedMem_0[29:27]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":7373:2:7373:7|Pruning register bit 6 of abstractGeneratedMem_1[6:5]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":72:16:72:40|Input port bits 1 to 0 of auto_tl_in_a_bits_address[11:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_inner_dm_inner.v":86:16:86:41|Input port bits 1 to 0 of auto_dmi_in_a_bits_address[8:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_ASYNC_DM_OUTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLASYNC_CROSSING_SOURCE_DM_INNER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SINK .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_5 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_4 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_3 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYNCHRONIZER_SHIFT_REG_W42_D1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_QUEUE_SOURCE .......
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source.v":280:2:280:7|Removing register 'mem_0_param' because it is only assigned 0 or its original value.
+@W: CL138 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_async_queue_source.v":280:2:280:7|Removing register 'mem_0_source' because it is only assigned 0 or its original value.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_2 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D1_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_VALID_SYNC .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D4_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_SYNCHRONIZER_SHIFT_REG_W1_D3_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_SYNC_CROSSING_SOURCE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLDEBUG_MODULE_OUTER_DM_OUTER .......
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":70:16:70:41|Input port bits 6 to 3 of auto_dmi_in_a_bits_address[6:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":70:16:70:41|Input port bits 1 to 0 of auto_dmi_in_a_bits_address[6:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":72:16:72:38|Input port bit 29 of auto_dmi_in_a_bits_data[31:0] is unused
+
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":72:16:72:38|Input port bits 27 to 26 of auto_dmi_in_a_bits_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tldebug_module_outer_dm_outer.v":72:16:72:38|Input port bits 15 to 2 of auto_dmi_in_a_bits_data[31:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W1_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG_VEC_W32_I0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_ASYNC_RESET_REG .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_DMI_XBAR .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":423:2:423:7|Pruning register bit 1 of _T_1398[1:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":423:2:423:7|Pruning unused register _T_1493_0. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":423:2:423:7|Pruning unused register _T_1493_1. Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":85:16:85:39|Input auto_out_1_d_bits_opcode is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":95:16:95:39|Input auto_out_0_d_bits_opcode is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":96:16:96:38|Input auto_out_0_d_bits_param is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":97:16:97:37|Input auto_out_0_d_bits_size is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_dmi_xbar.v":99:16:99:37|Input auto_out_0_d_bits_sink is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_DMITO_TL_DMI2TL .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_COREPLEX_LOCAL_INTERRUPTER_CLINT .......
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v":74:16:74:37|Input port bits 30 to 16 of auto_in_a_bits_address[30:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_coreplex_local_interrupter_clint.v":74:16:74:37|Input port bits 1 to 0 of auto_in_a_bits_address[30:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLPLIC_PLIC .......
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlplic_plic.v":104:16:104:37|Input port bits 30 to 26 of auto_in_a_bits_address[30:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlplic_plic.v":104:16:104:37|Input port bits 1 to 0 of auto_in_a_bits_address[30:0] are unused. Assign logic for all port bits or change the input port size.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_10 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_LEVEL_GATEWAY .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFILTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_MEMORY_BUS_MEM_BUSES_0 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_MEMORY_BUS .......
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_memory_bus.v":65:16:65:20|Input clock is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_memory_bus.v":66:16:66:20|Input reset is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_PERIPHERY_BUS_PBUS .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLATOMIC_AUTOMATA_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFRAGMENTER_PERIPHERY_BUS_SLAVE_TLFRAGMENTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER_2 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_REPEATER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_PERIPHERY_BUS_SLAVE_TLBUFFER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_PERIPHERY_BUS .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_periphery_bus.v":539:2:539:7|Pruning register bit 2 of _T_1732[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SYSTEM_BUS_SBUS .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_SIMPLE_LAZY_MODULE_SYSTEM_BUS_FROM_TILE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLCACHE_CORK_SYSTEM_BUS .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_6 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLFIFOFIXER_SYSTEM_BUS_PBUS_TLFIFOFIXER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLSPLITTER_SYSTEM_BUS_MASTER_TLSPLITTER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLWIDTH_WIDGET_SYSTEM_BUS_SLAVE_TLWIDTH_WIDGET .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLBUFFER_SYSTEM_BUS_SLAVE_TLBUFFER .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_5 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_4 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE_1 .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_QUEUE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_TLXBAR_SYSTEM_BUS .......
+@W: CL260 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":723:2:723:7|Pruning register bit 3 of _T_2155[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":97:16:97:37|Input auto_out_3_d_bits_sink is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":128:16:128:37|Input auto_out_1_d_bits_sink is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0_0\core\miv_rv32ima_l1_ahb_tlxbar_system_bus.v":146:16:146:37|Input auto_out_0_d_bits_sink is unused.
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_IDENTITY_MODULE .......
+Running optimization stage 2 on MIV_RV32IMA_L1_AHB_C0_MIV_RV32IMA_L1_AHB_C0_0_MIV_RV32IMA_L1_AHB_INT_XBAR .......
+Running optimization stage 2 on CLKINT .......
+Running optimization stage 2 on COREJTAGDEBUG_UJ_JTAG_85_0_0 .......
+Running optimization stage 2 on COREJTAGDEBUG_UJTAG_WRAPPER .......
+Running optimization stage 2 on UJTAG .......
+Running optimization stage 2 on COREJTAGDEBUG_Z1_layer1 .......
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":42:8:42:16|Input TGT_TDO_1 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":49:8:49:16|Input TGT_TDO_2 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":56:8:56:16|Input TGT_TDO_3 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":63:8:63:16|Input TGT_TDO_4 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":70:8:70:16|Input TGT_TDO_5 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":77:8:77:16|Input TGT_TDO_6 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":84:8:84:16|Input TGT_TDO_7 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":91:8:91:16|Input TGT_TDO_8 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":98:8:98:16|Input TGT_TDO_9 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":105:8:105:17|Input TGT_TDO_10 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":112:8:112:17|Input TGT_TDO_11 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":119:8:119:17|Input TGT_TDO_12 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":126:8:126:17|Input TGT_TDO_13 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":133:8:133:17|Input TGT_TDO_14 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":140:8:140:17|Input TGT_TDO_15 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":142:8:142:52|Input UJTAG_BYPASS_TCK_0 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":143:8:143:52|Input UJTAG_BYPASS_TMS_0 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":144:8:144:52|Input UJTAG_BYPASS_TDI_0 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":145:8:145:54|Input UJTAG_BYPASS_TRSTB_0 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":149:8:149:52|Input UJTAG_BYPASS_TCK_1 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":150:8:150:52|Input UJTAG_BYPASS_TMS_1 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":151:8:151:52|Input UJTAG_BYPASS_TDI_1 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":152:8:152:54|Input UJTAG_BYPASS_TRSTB_1 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":156:8:156:52|Input UJTAG_BYPASS_TCK_2 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":157:8:157:52|Input UJTAG_BYPASS_TMS_2 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":158:8:158:52|Input UJTAG_BYPASS_TDI_2 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":159:8:159:54|Input UJTAG_BYPASS_TRSTB_2 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":163:8:163:52|Input UJTAG_BYPASS_TCK_3 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":164:8:164:52|Input UJTAG_BYPASS_TMS_3 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":165:8:165:52|Input UJTAG_BYPASS_TDI_3 is unused.
+@N: CL159 :"C:\RISC-V\mi-v\component\Actel\DirectCore\COREJTAGDEBUG\3.0.100\core\corejtagdebug.v":166:8:166:54|Input UJTAG_BYPASS_TRSTB_3 is unused.
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\RISC-V\mi-v\synthesis\synwork\layer1.rt.csv
+

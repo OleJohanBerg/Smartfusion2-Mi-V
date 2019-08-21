@@ -1,0 +1,11 @@
+16:47:48 **** Incremental Build of configuration Debug for project RV32_simple_blink ****
+make all 
+Invoking: GNU RISC-V Cross Print Size
+riscv64-unknown-elf-size --format=berkeley "RV32_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4544	    128	   4128	   8800	   2260	RV32_simple_blink.elf
+Finished building: RV32_simple_blink.siz
+ 
+
+16:47:48 Build Finished. 0 errors, 0 warnings. (took 413ms)
+

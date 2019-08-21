@@ -1,0 +1,307 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-mixedhdl|-top|work.top|-layerid|0|-orig_srs|C:\\RISC-V\\mi-v\\synthesis\\synwork\\top_comp.srs|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|COREAHBLSRAM_LIB|-lib|work|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|COREAHBTOAPB3_LIB|-lib|work|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|COREAHBLITE_LIB|-lib|COREAHBLITE_LIB|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|COREGPIO_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\bin64\\c_vhdl.exe":1545375128
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\location.map":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1545375136
+#CUR:"C:\\Microsemi\\Libero_SoC_v12.1\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1545375136
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0_0\\rtl\\vhdl\\core\\AHBLSramIf.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0_0\\rtl\\vhdl\\core\\usram_128to9216x8.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0_0\\rtl\\vhdl\\core\\lsram_2048to139264x8.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0_0\\rtl\\vhdl\\core\\SramCtrlIf.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBLSRAM\\2.2.104\\rtl\\vhdl\\core\\coreahblsram_pkg.vhd":1565006812
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0_0\\rtl\\vhdl\\core\\CoreAHBLSRAM.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBLSRAM_C0\\COREAHBLSRAM_C0.vhd":1565097189
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\coreahbtoapb3_ahbtoapbsm.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\coreahbtoapb3_apbaddrdata.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\coreahbtoapb3_penablescheduler.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\ahbtoapb3_pkg.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\coreahbtoapb3.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\COREAHBTOAPB3\\3.1.100\\rtl\\vhdl\\core\\components.vhd":1563456211
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREAHBTOAPB3_C1\\COREAHBTOAPB3_C1.vhd":1563456327
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\COREJTAGDEBUG_C0\\COREJTAGDEBUG_C0.vhd":1563281925
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_slavearbiter.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_slavestage.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_defaultslavesm.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_addrdec.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_masterstage.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_matrix4x16.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAHBLite\\5.4.102\\rtl\\vhdl\\core\\coreahblite_pkg.vhd":1565006878
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\coreahblite.vhd":1565012010
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0_0\\rtl\\vhdl\\core\\components.vhd":1565012009
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C0\\CoreAHBLite_C0.vhd":1565012010
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C1\\CoreAHBLite_C1_0\\rtl\\vhdl\\core\\coreahblite.vhd":1565010739
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C1\\CoreAHBLite_C1_0\\rtl\\vhdl\\core\\components.vhd":1565010739
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAHBLite_C1\\CoreAHBLite_C1.vhd":1565010739
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core_obfuscated\\coreapb3_iaddr_reg.vhd":1561563631
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core_obfuscated\\coreapb3_muxptob3.vhd":1561563631
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core_obfuscated\\coreapb3.vhd":1561563631
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vhdl\\core_obfuscated\\components.vhd":1561563631
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreAPB3_C0\\CoreAPB3_C0.vhd":1564734798
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1564736521
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\coregpio.vhd":1564736521
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0_0\\rtl\\vhdl\\core\\components.vhd":1564736521
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_C0\\CoreGPIO_C0.vhd":1564736521
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_OUT\\CoreGPIO_OUT_0\\rtl\\vhdl\\core\\coregpio_pkg.vhd":1564737503
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_OUT\\CoreGPIO_OUT_0\\rtl\\vhdl\\core\\coregpio.vhd":1564737503
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_OUT\\CoreGPIO_OUT_0\\rtl\\vhdl\\core\\components.vhd":1564737503
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\CoreGPIO_OUT\\CoreGPIO_OUT.vhd":1564737503
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\FCCC_C0\\FCCC_C0_0\\FCCC_C0_FCCC_C0_0_FCCC.vhd":1565006328
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\FCCC_C0\\FCCC_C0.vhd":1565006328
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\MIV_RV32IMA_L1_AHB_C0\\MIV_RV32IMA_L1_AHB_C0.vhd":1563281821
+#CUR:"C:\\RISC-V\\mi-v\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1556612936
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.vhd":1565006397
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\OSC_C0\\OSC_C0.vhd":1565006397
+#CUR:"C:\\RISC-V\\mi-v\\component\\work\\top\\top.vhd":1565012035
+0 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\AHBLSramIf.vhd" vhdl
+1 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\usram_128to9216x8.vhd" vhdl
+2 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\lsram_2048to139264x8.vhd" vhdl
+3 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\SramCtrlIf.vhd" vhdl
+4 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBLSRAM\2.2.104\rtl\vhdl\core\coreahblsram_pkg.vhd" vhdl
+5 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0_0\rtl\vhdl\core\CoreAHBLSRAM.vhd" vhdl
+6 "C:\RISC-V\mi-v\component\work\COREAHBLSRAM_C0\COREAHBLSRAM_C0.vhd" vhdl
+7 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_ahbtoapbsm.vhd" vhdl
+8 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_apbaddrdata.vhd" vhdl
+9 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3_penablescheduler.vhd" vhdl
+10 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\ahbtoapb3_pkg.vhd" vhdl
+11 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\coreahbtoapb3.vhd" vhdl
+12 "C:\RISC-V\mi-v\component\Actel\DirectCore\COREAHBTOAPB3\3.1.100\rtl\vhdl\core\components.vhd" vhdl
+13 "C:\RISC-V\mi-v\component\work\COREAHBTOAPB3_C1\COREAHBTOAPB3_C1.vhd" vhdl
+14 "C:\RISC-V\mi-v\component\work\COREJTAGDEBUG_C0\COREJTAGDEBUG_C0.vhd" vhdl
+15 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavearbiter.vhd" vhdl
+16 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_slavestage.vhd" vhdl
+17 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_defaultslavesm.vhd" vhdl
+18 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_addrdec.vhd" vhdl
+19 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_masterstage.vhd" vhdl
+20 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_matrix4x16.vhd" vhdl
+21 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAHBLite\5.4.102\rtl\vhdl\core\coreahblite_pkg.vhd" vhdl
+22 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\coreahblite.vhd" vhdl
+23 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C0\CoreAHBLite_C0_0\rtl\vhdl\core\components.vhd" vhdl
+24 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C0\CoreAHBLite_C0.vhd" vhdl
+25 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C1\CoreAHBLite_C1_0\rtl\vhdl\core\coreahblite.vhd" vhdl
+26 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C1\CoreAHBLite_C1_0\rtl\vhdl\core\components.vhd" vhdl
+27 "C:\RISC-V\mi-v\component\work\CoreAHBLite_C1\CoreAHBLite_C1.vhd" vhdl
+28 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core_obfuscated\coreapb3_iaddr_reg.vhd" vhdl
+29 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core_obfuscated\coreapb3_muxptob3.vhd" vhdl
+30 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core_obfuscated\coreapb3.vhd" vhdl
+31 "C:\RISC-V\mi-v\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core_obfuscated\components.vhd" vhdl
+32 "C:\RISC-V\mi-v\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd" vhdl
+33 "C:\RISC-V\mi-v\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+34 "C:\RISC-V\mi-v\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd" vhdl
+35 "C:\RISC-V\mi-v\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd" vhdl
+36 "C:\RISC-V\mi-v\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd" vhdl
+37 "C:\RISC-V\mi-v\component\work\CoreGPIO_OUT\CoreGPIO_OUT_0\rtl\vhdl\core\coregpio_pkg.vhd" vhdl
+38 "C:\RISC-V\mi-v\component\work\CoreGPIO_OUT\CoreGPIO_OUT_0\rtl\vhdl\core\coregpio.vhd" vhdl
+39 "C:\RISC-V\mi-v\component\work\CoreGPIO_OUT\CoreGPIO_OUT_0\rtl\vhdl\core\components.vhd" vhdl
+40 "C:\RISC-V\mi-v\component\work\CoreGPIO_OUT\CoreGPIO_OUT.vhd" vhdl
+41 "C:\RISC-V\mi-v\component\work\FCCC_C0\FCCC_C0_0\FCCC_C0_FCCC_C0_0_FCCC.vhd" vhdl
+42 "C:\RISC-V\mi-v\component\work\FCCC_C0\FCCC_C0.vhd" vhdl
+43 "C:\RISC-V\mi-v\component\work\MIV_RV32IMA_L1_AHB_C0\MIV_RV32IMA_L1_AHB_C0.vhd" vhdl
+44 "C:\RISC-V\mi-v\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+45 "C:\RISC-V\mi-v\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd" vhdl
+46 "C:\RISC-V\mi-v\component\work\OSC_C0\OSC_C0.vhd" vhdl
+47 "C:\RISC-V\mi-v\component\work\top\top.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 -1
+2 -1
+3 2 1 
+4 -1
+5 0 3 4 
+6 5 
+7 -1
+8 -1
+9 -1
+10 -1
+11 7 9 8 10 
+12 -1
+13 11 12 
+14 -1
+15 -1
+16 15 
+17 -1
+18 -1
+19 18 17 
+20 19 16 
+21 -1
+22 20 21 
+23 -1
+24 22 23 
+25 20 21 
+26 -1
+27 25 26 
+28 -1
+29 -1
+30 29 28 
+31 -1
+32 30 31 
+33 -1
+34 33 
+35 -1
+36 34 35 
+37 -1
+38 37 
+39 -1
+40 38 39 
+41 -1
+42 41 
+43 -1
+44 -1
+45 44 
+46 45 
+47 24 27 6 13 32 36 40 14 42 43 46 
+
+# Dependency Lists (Users Of)
+0 5 
+1 3 
+2 3 
+3 5 
+4 5 
+5 6 
+6 47 
+7 11 
+8 11 
+9 11 
+10 11 
+11 13 
+12 13 
+13 47 
+14 47 
+15 16 
+16 20 
+17 19 
+18 19 
+19 20 
+20 25 22 
+21 25 22 
+22 24 
+23 24 
+24 47 
+25 27 
+26 27 
+27 47 
+28 30 
+29 30 
+30 32 
+31 32 
+32 47 
+33 34 
+34 36 
+35 36 
+36 47 
+37 38 
+38 40 
+39 40 
+40 47 
+41 42 
+42 47 
+43 47 
+44 45 
+45 46 
+46 47 
+47 -1
+
+# Design Unit to File Association
+arch coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_ahblsramif translated 0
+module coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_ahblsramif 0
+arch coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_usram_128to9216x8 translated 1
+module coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_usram_128to9216x8 1
+arch coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_lsram_2048to139264x8 translated 2
+module coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_lsram_2048to139264x8 2
+arch coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_sramctrlif translated 3
+module coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_sramctrlif 3
+arch coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_coreahblsram translated 5
+module coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_coreahblsram 5
+arch work coreahblsram_c0 rtl 6
+module work coreahblsram_c0 6
+arch coreahbtoapb3_lib coreahbtoapb3_ahbtoapbsm trans 7
+module coreahbtoapb3_lib coreahbtoapb3_ahbtoapbsm 7
+arch coreahbtoapb3_lib coreahbtoapb3_apbaddrdata trans 8
+module coreahbtoapb3_lib coreahbtoapb3_apbaddrdata 8
+arch coreahbtoapb3_lib coreahbtoapb3_penablescheduler trans 9
+module coreahbtoapb3_lib coreahbtoapb3_penablescheduler 9
+arch coreahbtoapb3_lib coreahbtoapb3 trans 11
+module coreahbtoapb3_lib coreahbtoapb3 11
+arch work coreahbtoapb3_c1 rtl 13
+module work coreahbtoapb3_c1 13
+arch work corejtagdebug_c0 rtl 14
+module work corejtagdebug_c0 14
+arch coreahblite_lib coreahblite_slavearbiter coreahblite_slavearbiter_arch 15
+module coreahblite_lib coreahblite_slavearbiter 15
+arch coreahblite_lib coreahblite_slavestage trans 16
+module coreahblite_lib coreahblite_slavestage 16
+arch coreahblite_lib coreahblite_defaultslavesm coreahblite_defaultslavesm_arch 17
+module coreahblite_lib coreahblite_defaultslavesm 17
+arch coreahblite_lib coreahblite_addrdec coreahblite_addrdec_arch 18
+module coreahblite_lib coreahblite_addrdec 18
+arch coreahblite_lib coreahblite_masterstage coreahblite_masterstage_arch 19
+module coreahblite_lib coreahblite_masterstage 19
+arch coreahblite_lib coreahblite_matrix4x16 coreahblite_matrix4x16_arch 20
+module coreahblite_lib coreahblite_matrix4x16 20
+arch coreahblite_lib coreahblite_c0_coreahblite_c0_0_coreahblite coreahblite_arch 22
+module coreahblite_lib coreahblite_c0_coreahblite_c0_0_coreahblite 22
+arch work coreahblite_c0 rtl 24
+module work coreahblite_c0 24
+arch coreahblite_lib coreahblite_c1_coreahblite_c1_0_coreahblite coreahblite_arch 25
+module coreahblite_lib coreahblite_c1_coreahblite_c1_0_coreahblite 25
+arch work coreahblite_c1 rtl 27
+module work coreahblite_c1 27
+arch coreapb3_lib capb3o capb3i 28
+module coreapb3_lib capb3o 28
+arch coreapb3_lib capb3li capb3i0 29
+module coreapb3_lib capb3li 29
+arch coreapb3_lib coreapb3 capb3lli 30
+module coreapb3_lib coreapb3 30
+arch work coreapb3_c0 rtl 32
+module work coreapb3_c0 32
+arch coregpio_lib coregpio_c0_coregpio_c0_0_coregpio rtl 34
+module coregpio_lib coregpio_c0_coregpio_c0_0_coregpio 34
+arch work coregpio_c0 rtl 36
+module work coregpio_c0 36
+arch coregpio_lib coregpio_out_coregpio_out_0_coregpio rtl 38
+module coregpio_lib coregpio_out_coregpio_out_0_coregpio 38
+arch work coregpio_out rtl 40
+module work coregpio_out 40
+arch work fccc_c0_fccc_c0_0_fccc def_arch 41
+module work fccc_c0_fccc_c0_0_fccc 41
+arch work fccc_c0 rtl 42
+module work fccc_c0 42
+arch work miv_rv32ima_l1_ahb_c0 rtl 43
+module work miv_rv32ima_l1_ahb_c0 43
+arch work xtlosc_fab def_arch 44
+module work xtlosc_fab 44
+arch work rcosc_25_50mhz_fab def_arch 44
+module work rcosc_25_50mhz_fab 44
+arch work rcosc_1mhz_fab def_arch 44
+module work rcosc_1mhz_fab 44
+arch work xtlosc def_arch 44
+module work xtlosc 44
+arch work rcosc_25_50mhz def_arch 44
+module work rcosc_25_50mhz 44
+arch work rcosc_1mhz def_arch 44
+module work rcosc_1mhz 44
+arch work osc_c0_osc_c0_0_osc def_arch 45
+module work osc_c0_osc_c0_0_osc 45
+arch work osc_c0 rtl 46
+module work osc_c0 46
+arch work top rtl 47
+module work top 47
+
+# Unbound Instances to File Association
+inst coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_usram_128to9216x8 ram64x18 1
+inst coreahblsram_lib coreahblsram_c0_coreahblsram_c0_0_lsram_2048to139264x8 ram1k18 2
+inst work corejtagdebug_c0 corejtagdebug 14
+inst work fccc_c0_fccc_c0_0_fccc ccc 41
+inst work fccc_c0_fccc_c0_0_fccc clkint 41
+inst work fccc_c0_fccc_c0_0_fccc gnd 41
+inst work fccc_c0_fccc_c0_0_fccc vcc 41
+inst work miv_rv32ima_l1_ahb_c0 miv_rv32ima_l1_ahb_c0_miv_rv32ima_l1_ahb_c0_0_miv_rv32ima_l1_ahb 43
+inst work top sysreset 47
+inst work top and2 47

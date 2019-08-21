@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="installedFeatures">
+		<item value="com.googlecode.cppcheclipse.feature:1.1.1.v20180105-1603"/>
+		<item value="ilg.gnumcueclipse.debug.gdbjtag.openocd.feature:4.3.3.201809300659"/>
+		<item value="ilg.gnumcueclipse.managedbuild.cross.arm.feature:2.6.4.201809300659"/>
+		<item value="ilg.gnumcueclipse.managedbuild.cross.riscv.feature:2.8.2.201809300659"/>
+		<item value="org.eclipse.cdt.gdb:9.5.5.201811180605"/>
+		<item value="org.eclipse.cdt:9.5.5.201811180605"/>
+		<item value="org.eclipse.egit:5.0.0.201806131550-r"/>
+		<item value="org.eclipse.emf.common:2.14.0.v20180527-1134"/>
+		<item value="org.eclipse.emf.ecore:2.14.0.v20180529-1144"/>
+		<item value="org.eclipse.help:2.2.200.v20180611-0500"/>
+		<item value="org.eclipse.jgit:5.0.0.201806131550-r"/>
+		<item value="org.eclipse.platform:4.8.0.v20180611-0656"/>
+		<item value="org.eclipse.rcp:4.8.0.v20180611-0656"/>
+		<item value="org.eclipse.tm.terminal.control.feature:4.4.0.201806112243"/>
+		<item value="org.eclipse.tm.terminal.feature:4.4.0.201806112243"/>
+		<item value="org.eclipse.tm.terminal.view.feature:4.3.0.201806112243"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Microsemi\Libero_SoC_v12.1\Designer\bin\samples"/>
+			<item value="C:\Microsemi\SoftConsole_v6.0\extras\workspace.examples\miv-rv32im-systick-blinky"/>
+			<item value="C:\M2S025-Creative-Board-master\Example_Software_Projects\riscv-systick-blinky"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.cdt.ui.wizards.NewCWizard2" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.cdt.ui.newCWizards"/>
+		</list>
+	</section>
+</section>

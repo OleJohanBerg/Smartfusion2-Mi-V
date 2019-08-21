@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\RISC-V\mi-v\synthesis\synlog\top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>COREJTAGDEBUG_UJTAG_WRAPPER|UDRCK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>93.0 MHz</data>
+<data>-0.378</data>
+</row>
+<row>
+<data>FCCC_C0_0/FCCC_C0_0/GL0</data>
+<data>50.0 MHz</data>
+<data>57.9 MHz</data>
+<data>2.733</data>
+</row>
+<row>
+<data>OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT</data>
+<data>50.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>161.5 MHz</data>
+<data>3.808</data>
+</row>
+</report_table>

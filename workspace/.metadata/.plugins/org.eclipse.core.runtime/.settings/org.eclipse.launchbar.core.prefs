@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:MiV_blinky Debug,org.eclipse.launchbar.core.descriptorType.default\:riscv-blinky Debug,org.eclipse.launchbar.core.descriptorType.default\:RV32_simple_blink Debug,org.eclipse.launchbar.core.descriptorType.default\:RV32_simple_gpio Debug
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:MiV_blinky\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MiV_blinky\ Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:New_configuration/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:RV32_simple_blink\ Debug/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:miv-rv32im-blinky/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:miv-rv32im-blinky/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:miv-rv32im-systick-blinky\ Debug/activeLaunchMode=debug
