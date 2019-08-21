@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<device>
+  <name>top</name>
+  <version>1.0</version>
+  <description>CMSIS description for top.  Created by Microsemi SmartDesign on Tue Aug  6 14:40:16 2019</description>
+  <addressUnitBits>8</addressUnitBits>
+  <width>32</width>
+  <peripherals>
+    <peripheral>
+      <name>COREAHBLSRAM_C0_0</name>
+      <baseAddress>0x80000000</baseAddress>
+    </peripheral>
+    <peripheral>
+      <name>CoreGPIO_IN</name>
+      <baseAddress>0x70001000</baseAddress>
+    </peripheral>
+    <peripheral>
+      <name>CoreGPIO_OUT</name>
+      <baseAddress>0x70002000</baseAddress>
+    </peripheral>
+  </peripherals>
+</device>
