@@ -1,0 +1,31 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Mon Aug  5 15:12:20 2019
+Project   :  C:\RISC-V\mi-v
+Component :  CoreAHBLite_C1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_addrdec.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_defaultslavesm.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_masterstage.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_matrix4x16.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_pkg.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavearbiter.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/core/coreahblite_slavestage.vhd
+    C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1.vhd
+    C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/rtl/vhdl/core/components.vhd
+    C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/rtl/vhdl/core/coreahblite.vhd
+
+Stimulus files for all Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/bfm_ahbl.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/bfm_main.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/bfm_package.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/misc.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAHBLite/5.4.102/rtl/vhdl/amba_bfm/textio.vhd
+    C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/coreparameters.vhd
+    C:/RISC-V/mi-v/component/work/CoreAHBLite_C1/CoreAHBLite_C1_0/rtl/vhdl/test/user/testbench.vhd
+

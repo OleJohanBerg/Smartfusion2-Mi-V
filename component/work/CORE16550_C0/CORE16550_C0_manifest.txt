@@ -1,0 +1,23 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Thu Jul 18 16:07:56 2019
+Project   :  C:\RISC-V\mi-v
+Component :  CORE16550_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/Core16550.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/Core16550_package.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/Core16550w.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/baudgen.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/components.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/fifoctrl.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/intcontrol.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/rwcontrol.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/rxblock.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/txblock.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/uart_fifo_smartfusion2.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CORE16550/3.3.105/rtl/vhdl/core/uart_reg.vhd
+    C:/RISC-V/mi-v/component/work/CORE16550_C0/CORE16550_C0.vhd
+

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>top</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C0_0:HCLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C0_0:HCLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C0_0:HRESETN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C0_0:HRESETN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C0_0:REMAP_M0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C0_0:REMAP_M0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C1_0:HCLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C1_0:HCLK</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C1_0:HRESETN</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C1_0:HRESETN</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin CoreAHBLite_C1_0:REMAP_M0</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/CoreAHBLite_C1_0:REMAP_M0</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin COREAHBLSRAM_C0_0:AHBSlaveInterface</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/COREAHBLSRAM_C0_0:AHBSlaveInterface</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin COREAHBTOAPB3_C1_0:AHBslave</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/COREAHBTOAPB3_C1_0:AHBslave</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin MIV_RV32IMA_L1_AHB_C0_0:AHB_MST_MEM</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MIV_RV32IMA_L1_AHB_C0_0:AHB_MST_MEM</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v12.1\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin MIV_RV32IMA_L1_AHB_C0_0:AHB_MST_MMIO</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/top/pins/MIV_RV32IMA_L1_AHB_C0_0:AHB_MST_MMIO</crossprobe>
+  </drc>
+</drcreport>

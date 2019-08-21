@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Fri Aug  2 10:33:19 2019
+Project   :  C:\RISC-V\mi-v
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/components.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3_iaddr_reg.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core_obfuscated/coreapb3_muxptob3.vhd
+    C:/RISC-V/mi-v/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+

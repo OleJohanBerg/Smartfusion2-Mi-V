@@ -1,0 +1,26 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Tue Aug  6 15:13:10 2019
+Project   :  C:\RISC-V\mi-v
+Component :  COREAHBLSRAM_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/XHDL_misc.vhdl
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/XHDL_std_logic.vhdl
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/XHDL_std_ulogic.vhdl
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/core/coreahblsram_pkg.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/AHBLSramIf.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/CoreAHBLSRAM.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/SramCtrlIf.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/lsram_2048to139264x8.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/core/usram_128to9216x8.vhd
+
+Stimulus files for all Simulation tools:
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_misc.vhd
+    C:/RISC-V/mi-v/component/Actel/DirectCore/COREAHBLSRAM/2.2.104/rtl/vhdl/test/user/XHDL_std_logic.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/coreparameters.vhd
+    C:/RISC-V/mi-v/component/work/COREAHBLSRAM_C0/COREAHBLSRAM_C0_0/rtl/vhdl/test/user/testbench.vhd
+

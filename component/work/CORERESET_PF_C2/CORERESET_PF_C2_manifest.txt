@@ -1,0 +1,15 @@
+Microsemi Corporation - Microsemi Libero Software Release v12.1 (Version 12.600.0.14)
+
+Date      :  Mon Aug  5 10:55:13 2019
+Project   :  C:\RISC-V\mi-v
+Component :  CORERESET_PF_C2
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/RISC-V/mi-v/component/work/CORERESET_PF_C2/CORERESET_PF_C2.vhd
+    C:/RISC-V/mi-v/component/work/CORERESET_PF_C2/CORERESET_PF_C2_0/core/corereset_pf.vhd
+
+Stimulus files for all Simulation tools:
+    C:/RISC-V/mi-v/component/work/CORERESET_PF_C2/CORERESET_PF_C2_0/test/corereset_pf_tb.vhd
+

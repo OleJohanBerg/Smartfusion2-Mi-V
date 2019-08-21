@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="memorymap.xsl"?>
+<datasheet>
+  <header>top</header>
+  <project-settings>
+    <fam>SmartFusion2</fam>
+    <die>M2S025</die>
+    <package>256 VF</package>
+    <speed-grade>STD</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>VHDL</hdl-type>
+    <project-description>SPI4.2</project-description>
+    <location>C:/RISC-V/mi-v/component/work/top</location>
+    <state>GENERATED ( Tue Aug  6 15:54:13 2019 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <memorysystem>
+    <title>Memory Map for top</title>
+    <description>The project contains the following subsystems:</description>
+    <subsystems>
+      <subsystem>
+        <name>MIV_RV32IMA_L1_AHB_C0_0</name>
+        <master>MIV_RV32IMA_L1_AHB_C0_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>COREAHBLSRAM_C0_0</name>
+          <fullPinName>COREAHBLSRAM_C0_0:AHBSlaveInterface</fullPinName>
+          <remapAddress>0x80000000</remapAddress>
+          <fullAddressSpace>0x80000000 - 0x8FFFFFFF</fullAddressSpace>
+          <range>0x10000000</range>
+        </slave>
+      </subsystem>
+      <subsystem>
+        <name>MIV_RV32IMA_L1_AHB_C0_0</name>
+        <master>MIV_RV32IMA_L1_AHB_C0_0</master>
+        <addressNames>
+          <count>1</count>
+          <name>
+          </name>
+        </addressNames>
+        <slave>
+          <name>CoreGPIO_IN</name>
+          <fullPinName>CoreGPIO_IN:APB_bif</fullPinName>
+          <remapAddress>0x70001000</remapAddress>
+          <fullAddressSpace>0x70001000 - 0x70001FFF</fullAddressSpace>
+          <range>0x00001000</range>
+        </slave>
+        <slave>
+          <name>CoreGPIO_OUT</name>
+          <fullPinName>CoreGPIO_OUT:APB_bif</fullPinName>
+          <remapAddress>0x70002000</remapAddress>
+          <fullAddressSpace>0x70002000 - 0x70002FFF</fullAddressSpace>
+          <range>0x00001000</range>
+        </slave>
+      </subsystem>
+    </subsystems>
+  </memorysystem>
+</datasheet>
